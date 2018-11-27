@@ -88,12 +88,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    ahoy_email (0.5.2)
-      actionmailer
-      activerecord
+    ahoy_email (1.0.2)
+      actionmailer (>= 4.2)
       addressable (>= 2.3.2)
       nokogiri
-      railties
       safely_block (>= 0.1.1)
     ahoy_matey (2.1.0)
       addressable
@@ -183,7 +181,7 @@ GEM
     dotenv-rails (2.5.0)
       dotenv (= 2.5.0)
       railties (>= 3.2, < 6.0)
-    errbase (0.1.0)
+    errbase (0.1.1)
     erubi (1.7.1)
     erubis (2.7.0)
     excon (0.62.0)
@@ -308,7 +306,7 @@ GEM
     loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.7.0)
+    mail (2.7.1)
       mini_mime (>= 0.1.1)
     maxminddb (0.1.21)
     memoist (0.16.0)
@@ -550,7 +548,7 @@ DEPENDENCIES
   activeadmin (~> 1.4.1)
   activerecord-import
   activerecord-nulldb-adapter
-  ahoy_email (~> 0.5.2)
+  ahoy_email (~> 1.0.2)
   ahoy_matey (~> 2)
   autoprefixer-rails
   awesome_print
